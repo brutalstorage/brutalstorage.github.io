@@ -1,0 +1,21 @@
+*{
+    background-color:antiquewhite
+}
+.container{
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+}
+img{
+    padding-top: 30px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* h2{
+    font-size: 20px;
+} */
