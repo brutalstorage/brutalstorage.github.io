@@ -5,36 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
     <link rel="icon" href="" type="image/icon type">
-    <script type="text/javascript" src="https://brutalstorage.github.io/de3.js"></script>
 </head>
 <body>
-    <div class="container">
-            <h1>Brutal Cloud Storage</h1>
-            <img src="desktop.png" alt="ntg">
-            <h2>pika</h2>
-            <a href="s.zip">download</a>
-            <p>date: time: size: abbreviation:</p>
-        <hr>
-            <img src="desktop.png" alt="ntg">
-            <h2>pika</h2>
-            <a href="s.zip">download</a>
-            <p>date: time: size: abbreviation:</p>
-        <hr>
-            <img src="desktop.png" alt="ntg">
-            <h2>pika</h2>
-            <a href="s.zip">download</a>
-            <p>date: time: size: abbreviation:</p>
-        <hr>
-            <img src="desktop.png" alt="ntg">
-            <h2>pika</h2>
-            <a href="s.zip">download</a>
-            <p>date: time: size: abbreviation:</p>
-        <hr>
-            <img src="desktop.png" alt="ntg">
-            <h2>pika</h2>
-            <a href="s.zip">download</a>
-            <p>date: time: size: abbreviation:</p>
+    <div class="container" id="storageContainer">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1>Brutal Cloud Storage</h1>
+        <script src="https://brutalstorage.github.io/de3.js"></script>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Files</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- Your existing file display script here -->
+        <script src="hamburger.js"></script>
     </div>
 </body>
 </html>
